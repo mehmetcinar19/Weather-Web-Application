@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <title>Hava Durumu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Content/style.css">
+
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <h1>Hava Durumu</h1>
+            <input type="text" id="searchBar" placeholder="Sehir...">
+        </div>
+        @*<table>
+            <tr>
+                <td>
+                    <div>
+                        <i class="glyphicon glyphicon-cloud"></i>
+                    </div>
+                </td>
+            </tr>
+        </table>*@
+        <table align="right">
+            <tr>
+
+                <div class="content"> </div>
+            </tr>
+            <tr>
+                <th> <div class="city"></div> </th>
+                <td><i class="glyphicon glyphicon-map-marker" style="font-size: 48px;"></i></td>
+            </tr>
+            <tr><th><div class="date"></div> </th><td><i class="glyphicon glyphicon-calendar" style="font-size: 35px;"></i></td> </tr>
+            <tr><th> <div class="hour"></div></th> <td><i class="glyphicon glyphicon-time" style="font-size: 48px;"></i></td> </tr>
+            <tr><th> <div class="temp"></div></th> <td><i class="glyphicon glyphicon-dashboard" style="font-size: 48px;"></i></td> </tr>
+            <tr>
+                <th>
+                    <div class="description"> </div>
+                </th>
+                <td><i class="glyphicon glyphicon-cloud" style="font-size: 48px;"></i></td>
+            </tr>
+            <tr><th> <div class="temprange"></div></th> </tr>
+            <tr><th> <div class="humidity"></div></th> </tr>
+            <tr><th> <div class="wind"></div></th> </tr>
+
+
+
+
+        </table>
+       
+
+
+
+
+        
+        <div class="">
+
+        </div>
+    </div>
+   
+    <table>
+        <tr>
+            <td>
+                <div>
+
+                </div>
+            <td>
+        </tr>
+    </table>
+    <script src="~/Scripts/main.js"></script>
+
+</body>
+</html>
